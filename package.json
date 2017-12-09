@@ -1,11 +1,11 @@
 {
-  "name": "annotation-sketch-plugin",
+  "name": "hellen-sketch-plugin",
   "version": "0.1.0",
   "engines": {
     "sketch": ">=3.0"
   },
   "skpm": {
-    "name": "annotation-sketch-plugin",
+    "name": "hellen-sketch-plugin",
     "manifest": "src/manifest.json",
     "main": "plugin.sketchplugin"
   },
