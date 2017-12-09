@@ -1,0 +1,30 @@
+{
+  "name": "Auto Annotation",
+  "description": "Plugins to get FE css",
+  "author": "zhaolei",
+  "email": "leozhao.go@gmail.com",
+  "homepage": "https://github.com/example/sketchplugins",
+  "version": "1.0.0",
+  "compatibleVersion": 3,
+  "bundleVersion": 1,
+  "identifier": "com.zhaolei.annotation",
+  "commands": [
+    {
+      "name": "get CSS",
+      "identifier": "com.zhaolei.annotation.getcss",
+      "script": "./my-command.js",
+      "handlers": {
+        "run": "reminder",
+        "actions": {
+          "SelectionChanged.finish": "onSelectionChanged"
+        }
+      }
+    }
+  ],
+  "menu": {
+    "title": "annotation-sketch-plugin",
+    "items": [
+      "com.zhaolei.annotation.getcss"
+    ]
+  }
+}
